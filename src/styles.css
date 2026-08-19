@@ -228,6 +228,9 @@ body:has(.mobile-card-picker) footer { padding-bottom: 116px; }
 .rules-credit a { display: inline-flex; align-items: center; gap: 5px; margin-top: 8px; color: #8a6a12; font-size: 11.5px; font-weight: 800; text-decoration: none; border-bottom: 1px solid rgba(138,106,18,.35); }
 .rules-credit a:hover { color: #6d5209; border-bottom-color: #6d5209; }
 .rules-credit a svg { width: 12px; height: 12px; }
+.rules-credit-contact { margin-top: 10px !important; padding-top: 9px; border-top: 1px dashed #e2d3b4; font-size: 11.5px !important; }
+.rules-credit-contact > svg { width: 13px; height: 13px; margin-right: 6px; vertical-align: -2px; color: #8a6a12; }
+.rules-credit-contact a { display: inline; margin-top: 0; border-bottom-width: 1px; font-weight: 800; }
 .rules-scoring { border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin-bottom: 26px; }
 .rules-scoring > h3 { font: 800 14px Manrope, 'DM Sans', system-ui, sans-serif; margin-bottom: 4px; }
 .rules-zone-row { display: grid; grid-template-columns: 12px 106px minmax(0, 1fr) auto; align-items: center; gap: 6px 12px; padding: 9px 0; border-bottom: 1px dashed var(--line); }

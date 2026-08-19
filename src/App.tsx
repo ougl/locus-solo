@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
   Check, ChevronLeft, ChevronRight, Coins, ExternalLink, FlipHorizontal2, Heart, HelpCircle,
-  Medal, Pause, Play, Redo2, RotateCw, Sparkles, Trash2, Trophy, Undo2, UserRound, X,
+  Mail, Medal, Pause, Play, Redo2, RotateCw, Sparkles, Trash2, Trophy, Undo2, UserRound, X,
 } from 'lucide-react'
 import {
   GREEN_ENDPOINTS, nextSoloLevel, RED_BLOCKS, SHAPE_NAMES, soloLevel,
@@ -19,6 +19,8 @@ import type { Card, GameState, ReplayEvent, ShapeId, ZoneId } from './types'
 const STORAGE_KEY = 'locus-solo-game-v2'
 const LEADERBOARD_KEY = 'locus-solo-leaderboard-v3'
 const REPORTED_GAMES_KEY = 'locus-solo-reported-games-v1'
+/** Adresse dédiée au projet : joignable par les ayants droit sans exposer d'identité. */
+const CONTACT_EMAIL = 'ougl.dev@gmail.com'
 type LeaderboardStatus = 'loading' | 'online' | 'offline'
 
 function loadGame() {
@@ -540,6 +542,11 @@ function Rules({ onClose }: { onClose: () => void }) {
             <a href="https://www.tuckersfunfactory.nl" target="_blank" rel="noopener noreferrer">
               Découvrir le jeu original <ExternalLink aria-hidden="true" />
             </a>
+            <p className="rules-credit-contact">
+              <Mail aria-hidden="true" />
+              Auteur ou éditeur : une remarque, une correction, un retrait ? Écrivez à{' '}
+              <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>, la demande sera honorée sans discussion.
+            </p>
           </div>
         </section>
         <section className="rules-scoring" aria-label="Le score par zone">
