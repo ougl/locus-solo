@@ -1,0 +1,21 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "locus-solo",
+	"main": "./worker/index.ts",
+	"compatibility_date": "2026-08-18",
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS",
+		"not_found_handling": "single-page-application",
+		"run_worker_first": [
+			"/api/*"
+		]
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "locus-leaderboard",
+			"database_id": "12d15464-a9ed-4e53-a682-532cb79424f7"
+		}
+	]
+}

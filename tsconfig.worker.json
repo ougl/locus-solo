@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": ["@cloudflare/workers-types"],
+    "tsBuildInfoFile": "./node_modules/.cache/tsconfig.worker.tsbuildinfo"
+  },
+  "include": ["worker", "src/gameLogic.ts", "src/gameData.ts", "src/types.ts"]
+}
