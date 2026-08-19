@@ -307,7 +307,6 @@ function replayShapeName(shape?: ShapeId, color?: ZoneId | 'wild') {
 
 /** Phrase complète décrivant la frame, dans le même ton que les messages du jeu. */
 function replayFrameCopy(event: ReplayEvent, events: ReplayEvent[], eventIndex: number, state: GameState) {
-  if (event.type === 'finish') return { eyebrow: 'Partie terminée', title: 'Voici la grille finale.' }
   const eyebrow = `Tour ${event.turn} / 16`
   const zoneName = event.zone ? ZONE_META[event.zone].name : ''
   if (event.type === 'turn') return { eyebrow, title: 'La partie commence : deux formes sont révélées.' }
