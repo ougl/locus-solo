@@ -544,8 +544,7 @@ function Rules({ onClose }: { onClose: () => void }) {
             </a>
             <p className="rules-credit-contact">
               <Mail aria-hidden="true" />
-              Auteur ou éditeur : une remarque, une correction, un retrait ? Écrivez à{' '}
-              <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>, la demande sera honorée sans discussion.
+              Contactez-moi à cette adresse : <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
             </p>
           </div>
         </section>

@@ -14,11 +14,9 @@ Ce qui est **original ici** : le code, la mise en page, la palette, la typograph
 
 Si vous découvrez le jeu ici, **achetez la vraie boîte** : elle se joue de 1 à 5 joueurs et l’expérience autour d’une table vaut largement le détour. Rendez-vous chez [Tucker’s Fun Factory](https://www.tuckersfunfactory.nl) ou chez votre boutique de jeux locale.
 
-### Contact — auteurs et éditeur
+### Contact
 
-Si vous représentez Stan van Rooijen ou Tucker’s Fun Factory et souhaitez que ce projet soit modifié, crédité autrement ou retiré : écrivez à **ougl.dev@gmail.com**. La demande sera honorée sans discussion et sans délai — il suffit de le demander, aucune procédure formelle n’est nécessaire.
-
-Le même contact vaut pour toute question sur ce projet.
+Contactez-moi à cette adresse : **ougl.dev@gmail.com**
 
 ## Installation locale
 
